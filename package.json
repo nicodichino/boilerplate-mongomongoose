@@ -4,11 +4,12 @@
   "description": "A boilerplate project",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "live": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.12.4",
     "mongodb": "^6.3.0",
     "mongoose": "^5.11.15"
@@ -22,5 +23,8 @@
     "mongoose",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
